@@ -99,9 +99,9 @@ export const MainContainer = () => {
               </p>
             </div>
             <div className="currency">
-              <h5>AED</h5>
+              <h5>EUR</h5>
               <p>
-                {parseFloat(data?.rates?.AED).toLocaleString("en-US", {
+                {parseFloat(data?.rates?.EUR).toLocaleString("en-US", {
                   maximumFractionDigits: 2,
                 })}
               </p>
